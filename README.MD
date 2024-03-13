@@ -1,29 +1,12 @@
-# HOOPS Communicator Assmbly Creator
-This demo introduces an unique workflow using HOOPS Communicator that loads parts from a parts list and constructs an assembly model using custom mate operators such as collinear, concentric and coplanar. This workflow can be utilized in various industries such as maintenance manual, work instruction or e-commerce (custom order), etc.<br>  
-The created assembly structure can be represented in a  JSON string and reproduced.
+# Hoops Web Platform - Assembly Creator Demo
 
-## Dependencies
-### SDKs in use (version)
-- HOOPS Communicator (2024.1.0)
+See this demo running live on [GitHub Pages](https://techsoft3d.github.io/assembly_creator/?viewer=SCS&instance=housing).
 
-## Setup
-### Demo folders
-&emsp;+ assembly_creator<br>
-&emsp;&emsp;+ css<br>
-&emsp;&emsp;+ js<br>
-&emsp;&emsp;+ parts<br>
-&emsp;&emsp;+ assembly_cretor.html<br>
-&emsp;&emsp;+ HttpServer.js<br>
-&emsp;&emsp;+ package.json<br>
-&emsp;+ src (copy src folder from `Communicator SDK\web_viewer`)<br>
+## In order to run locally 
 
-### Parts
-Part SCS files and PNG images are located in the `parts` folder with `parts_list.json`
+We recommand using Visual Studio Code with the Live Server extension to run this application locally.
 
-## Start assemly_creator
-1. Launch HTTP server using a command prompt<br>
-    `cd …/cloud_modeler`<br>
-    `npm install`<br>
-    `npm start`<br>
-2. Open (using Chrome)<br>
-&emsp;http://localhost:8000/assembly_creator.html?viewer=SCS&instance=housing
+1. Download [Visual Studio Code](https://code.visualstudio.com/) and install the Live Server extension.
+2. Download this repository and open it in VSCode.
+3. Click the "Go Live" button on the bottom right corner of the VSCode window.
+4. A browser window should pop up with the demo opened. If it doesn't, the default url for the Live Server should be `http://127.0.0.1:5500/assembly_creator.html?viewer=SCS&instance=housing`
